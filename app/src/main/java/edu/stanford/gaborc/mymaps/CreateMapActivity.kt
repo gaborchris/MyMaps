@@ -127,25 +127,6 @@ class CreateMapActivity : AppCompatActivity(), OnMapReadyCallback {
             }
             val marker = mMap.addMarker(MarkerOptions().position(latLng).title(title).snippet(description))
 
-//            val start = SystemClock.uptimeMillis()
-//            val duration = 1500
-//            val interpolator = android.view.animation.BounceInterpolator()
-//            val handler = android.os.Handler(Looper.getMainLooper()).post{
-//                val elapsed = SystemClock.uptimeMillis() - start
-//                val t =
-//                    (1.toFloat() - interpolator.getInterpolation((1 * elapsed / duration).toFloat())).coerceAtLeast(
-//                        0.toFloat()
-//                    )
-//                marker.setAnchor(0.5f, 1.0f + 14 * t)
-//                if (t > 0) {
-//                    Handler(Looper.getMainLooper()).postDelayed( this, 15)
-//                } else {
-//                    marker.showInfoWindow()
-//                }
-//            }
-
-//            mMap.dropPin
-
             markers.add(marker)
 
             dialog.dismiss()
