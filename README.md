@@ -24,7 +24,7 @@ The recycler view shows a count of the number of markers in each saved map.
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/zKiwgp3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/IwzonJJ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with Peek on Ubuntu.
 
